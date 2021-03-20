@@ -22,7 +22,7 @@ formulario.addEventListener('submit', function(e) {
 
 
   } else {
-    alert('Por favor digite as informações');
+    alert('Harap masukan informasi');
   }
   
   // clear fields
@@ -43,6 +43,6 @@ copy.addEventListener('click', () => {
   textarea.select();
   document.execCommand('copy');
   textarea.remove();
-  alert('Link copiado!');
+  alert('Berhasil disalin!');
 
 });
