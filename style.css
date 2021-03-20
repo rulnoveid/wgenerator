@@ -227,13 +227,13 @@ main input[type=submit]:hover {
     }
 
     main input[type=text], main textarea {
-        width: 260px;
+        width: 90%;
         background-size: 18px;
     }
 
     main textarea {
         max-width: 260px;
-        min-width: 260px;
+        min-width: 90%;
     }
 
     main .info {
